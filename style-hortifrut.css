@@ -1,0 +1,107 @@
+body {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+  }
+  
+  /* Header com efeito glass */
+  header {
+    padding: 2rem;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 1rem;
+    backdrop-filter: blur(10px);
+    margin: 2rem;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  
+  /* Título do Header */
+  header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Parágrafos no header */
+  header p {
+    font-size: 1.1rem;
+    margin: 0.5rem 0;
+  }
+
+  img {
+    border-radius: 15px;
+}
+  
+  /* Conteúdo principal */
+  main {
+    margin: 2rem;
+  }
+  
+  /* Seções (descrição e imagens) */
+  section.descricao,
+  section.imagens {
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 1rem;
+    backdrop-filter: blur(10px);
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  
+  /* Subtítulos */
+  section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Texto dentro das seções */
+  section p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
+  /* Área de imagens com descrição */
+  .imagem-card {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  /* Cada bloco de imagem + descrição */
+  .bloco-imagem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  /* Título da imagem */
+  .bloco-imagem h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem; /* mais coladinho com a imagem */
+  }
+  
+  /* A imagem */
+  .bloco-imagem img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 1rem;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+    transition: transform 0.3s ease;
+    margin-bottom: 0.5rem; /* espaço pequeno abaixo da imagem */
+  }
+  
+  /* Efeito hover na imagem */
+  .bloco-imagem img:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Texto abaixo da imagem */
+  .bloco-imagem p {
+    font-size: 1rem;
+    color: #e0e0e0;
+    margin: 0; /* tira margens desnecessárias */
+  }
+  

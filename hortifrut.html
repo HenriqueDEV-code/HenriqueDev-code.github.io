@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Gestão Hortifruti</title>
+    <link rel="stylesheet" href="style-hortifrut.css">
+    <link rel="icon" href="icons8-código-100.png" type="image/png">
+</head>
+<body>
+    <header>
+        <h1>Sistema de Gestão Hortifruti</h1>
+        <p>Este sistema foi desenvolvido para fins de aprendizagem da lógica de programação em C, utilizando arquivos <code>.csv</code> para armazenar os dados.</p>
+        <p>O projeto foi o tema do meu PIM (Projeto Integrado Multidisciplinar) da UNIP, no 2º semestre do curso de Análise e Desenvolvimento de Sistemas.</p>
+        <p>Estou utilizando este portfólio para apresentar o projeto e explicar o funcionamento de cada parte do sistema.</p>
+    </header>
+
+    <main>
+        <section class="descricao">
+            <h2>Sobre o Sistema</h2>
+            <p>O diferencial deste programa é a criação de um "front-end" em C, utilizando a biblioteca <code>#include &lt;Windows.h&gt;</code>. Desenvolvi também uma função para posicionar caracteres na tela por coordenadas (x, y) e controlar a seta de navegação, como mostrado nas imagens abaixo.</p>
+        </section>
+
+        <section class="imagens glass">
+            <h2>Menus e Telas do Sistema</h2>
+            <div class="imagens-container">
+
+                <div class="imagem-card">
+                    <h3 class="titulo-imagem">Menu Inicial</h3>
+                    <img src="/img/HortiFruti/Menu_Principal_Hortifruts.png" alt="Menu Inicial">
+                    <p class="descricao">A imagem mostra a facilidade de uso do sistema, com um guia básico na parte inferior orientando as ações necessárias.</p>
+                </div>
+
+                <div class="imagem-card">
+                    <h3 class="titulo-imagem">Controle de Estoque</h3>
+                    <img src="/img/HortiFruti/Cadastro_Hortifrut.png" alt="Controle de Estoque">
+                    <p class="descricao">Permite cadastrar, editar, excluir, buscar e listar mercadorias no estoque.</p>
+                </div>
+
+                <div class="imagem-card">
+                    <h3 class="titulo-imagem">Busca de Itens</h3>
+                    <img src="/img/HortiFruti/Busca_De_Itens.png" alt="Busca de Itens">
+                    <p class="descricao">Para localizar um item, basta digitar o ID do produto e pressionar Enter para exibir os dados cadastrados.</p>
+                </div>
+
+                <div class="imagem-card">
+                    <h3 class="titulo-imagem">Listagem de Itens</h3>
+                    <img src="/img/HortiFruti/Lista_Itens_Cadastrados.png" alt="Lista de Itens">
+                    <p class="descricao">Nesta tela, ao pressionar Enter, o sistema lista todos os produtos cadastrados no arquivo <code>.csv</code>.</p>
+                </div>
+
+                <div class="imagem-card">
+                    <h3 class="titulo-imagem">Fluxo de Vendas</h3>
+                    <img src="/img/HortiFruti/Fluxo_De_Vendas.png" alt="Fluxo de Vendas">
+                    <p class="descricao">Exibe as opções operacionais de vendas, como PDV, cancelamento e listagem de vendas.</p>
+                </div>
+
+                <div class="imagem-card">
+                    <h3 class="titulo-imagem">Ponto de Venda (PDV)</h3>
+                    <img src="/img/HortiFruti/PDV.png" alt="Ponto de Venda (PDV)">
+                    <p class="descricao">Para iniciar uma venda, informe o ID do produto (ou código EAN), pressione Enter, informe a quantidade e pressione Enter novamente. O produto é adicionado à lista de vendas, mostrando o valor unitário, total e o subtotal da venda. Para encerrar ou sair, pressione a tecla ESC.</p>
+                </div>
+
+            </div>
+        </section>
+    </main>
+</body>
+</html>
